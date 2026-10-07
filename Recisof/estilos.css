@@ -1,0 +1,166 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f7f2;
+    color: #333;
+}
+
+
+/* Encabezado */
+
+header {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+/* Menú */
+
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: #4caf50;
+}
+
+
+/* Secciones */
+
+section {
+    background-color: white;
+    margin: 25px auto;
+    padding: 30px;
+
+    width: 80%;
+
+    border-radius: 10px;
+}
+
+h2 {
+    color: #388e3c;
+}
+
+h3 {
+    color: #4caf50;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+/* Botones */
+
+button {
+    background-color: #4caf50;
+    color: white;
+
+    border: none;
+
+    padding: 10px 15px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+
+/* Tarjetas */
+
+.contenedor {
+    display: flex;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background-color: #f1f8f1;
+
+    padding: 20px;
+
+    width: 200px;
+
+    border-radius: 8px;
+
+    border: 1px solid #ddd;
+}
+
+
+/* Listas */
+
+li {
+    margin: 10px;
+}
+
+
+/* Sección final */
+
+.final {
+    text-align: center;
+
+    background-color: #dff0df;
+}
+
+
+/* Pie de página */
+
+footer {
+    background-color: #333;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+    margin-top: 30px;
+}
+
+
+/* Para celular */
+
+@media (max-width: 600px) {
+
+    section {
+        width: 85%;
+    }
+
+    nav a {
+        display: block;
+
+        margin: 10px;
+    }
+
+    .contenedor {
+        display: block;
+    }
+
+    .tarjeta {
+        width: auto;
+
+        margin-bottom: 15px;
+    }
+
+}

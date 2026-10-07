@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Recisof</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+
+    <header>
+
+        <h1>♻️ RECISOF</h1>
+
+        <p>
+            Página web de puntos de reciclaje
+        </p>
+
+    </header>
+
+
+    <!-- Menú -->
+
+    <nav>
+
+        <a href="#inicio">Inicio</a>
+
+        <a href="#proyecto">Nuestro proyecto</a>
+
+        <a href="#reciclaje">Reciclaje</a>
+
+        <a href="#puntos">Puntos de reciclaje</a>
+
+    </nav>
+
+
+    <!-- Inicio -->
+
+    <section id="inicio">
+
+        <h2>Bienvenido a Recisof</h2>
+
+        <p>
+            Recisof es un proyecto creado para ayudar a las
+            personas de Bogotá a encontrar información sobre
+            puntos de reciclaje.
+        </p>
+
+        <p>
+            Nuestro objetivo es facilitar el reciclaje y ayudar
+            a las personas a saber dónde pueden llevar sus
+            residuos aprovechables.
+        </p>
+
+        <button onclick="buscarPunto()">
+            Buscar punto de reciclaje
+        </button>
+
+        <p id="resultado"></p>
+
+    </section>
+
+
+    <!-- Nuestro proyecto -->
+
+    <section id="proyecto">
+
+        <h2>¿Por qué se creó Recisof?</h2>
+
+        <p>
+            Este proyecto nace porque muchas personas quieren
+            reciclar, pero no saben dónde llevar los residuos
+            que pueden ser aprovechados.
+        </p>
+
+        <p>
+            En Bogotá se generan muchos residuos y en ocasiones
+            los materiales reciclables terminan mezclados con
+            la basura común.
+        </p>
+
+        <p>
+            Por esta razón pensamos en crear una página que
+            permita encontrar información sobre diferentes
+            puntos de reciclaje.
+        </p>
+
+
+        <h3>Proyecto SENA</h3>
+
+        <p>
+            Recisof es un proyecto académico realizado en el
+            <strong>SENA</strong> como parte del programa
+            <strong>Tecnología en Análisis y Desarrollo de
+            Software (ADSO)</strong>.
+        </p>
+
+    </section>
+
+
+    <!-- Objetivo -->
+
+    <section>
+
+        <h2>Nuestro objetivo</h2>
+
+        <p>
+            Nuestro principal objetivo es ayudar a reciclar
+            de una manera más fácil, utilizando la tecnología
+            para brindar información sobre los lugares donde
+            las personas pueden llevar sus materiales reciclables.
+        </p>
+
+        <h3>¿Qué queremos lograr?</h3>
+
+        <ul>
+
+            <li>
+                Facilitar la búsqueda de puntos de reciclaje.
+            </li>
+
+            <li>
+                Ayudar a conocer dónde llevar los residuos.
+            </li>
+
+            <li>
+                Promover mejores hábitos de reciclaje.
+            </li>
+
+            <li>
+                Contribuir al cuidado del medio ambiente.
+            </li>
+
+        </ul>
+
+    </section>
+
+
+    <!-- Información sobre reciclaje -->
+
+    <section id="reciclaje">
+
+        <h2>¿Qué podemos reciclar?</h2>
+
+        <p>
+            Algunos materiales que pueden ser aprovechados
+            mediante el reciclaje son:
+        </p>
+
+
+        <div class="contenedor">
+
+            <div class="tarjeta">
+
+                <h3>📦 Cartón</h3>
+
+                <p>
+                    Cajas y otros elementos de cartón limpios
+                    y secos.
+                </p>
+
+            </div>
+
+
+            <div class="tarjeta">
+
+                <h3>🥤 Plástico</h3>
+
+                <p>
+                    Botellas, envases y otros recipientes
+                    plásticos aprovechables.
+                </p>
+
+            </div>
+
+
+            <div class="tarjeta">
+
+                <h3>🍾 Vidrio</h3>
+
+                <p>
+                    Botellas y recipientes de vidrio.
+                </p>
+
+            </div>
+
+
+            <div class="tarjeta">
+
+                <h3>📄 Papel</h3>
+
+                <p>
+                    Hojas, periódicos y otros tipos de papel.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Puntos de reciclaje -->
+
+    <section id="puntos">
+
+        <h2>Puntos de reciclaje</h2>
+
+        <p>
+            Aquí podrás encontrar información sobre algunos
+            lugares donde puedes llevar tus materiales reciclables.
+        </p>
+
+        <button onclick="buscarPunto()">
+            Buscar punto
+        </button>
+
+        <p id="resultadoPunto"></p>
+
+    </section>
+
+
+    <!-- Sección final -->
+
+    <section class="final">
+
+        <h2>♻️ Reciclar es tarea de todos</h2>
+
+        <p>
+            Con pequeñas acciones podemos ayudar a cuidar
+            nuestro medio ambiente.
+        </p>
+
+    </section>
+
+
+    <!-- Pie de página -->
+
+    <footer>
+
+        <p>
+            Recisof - Proyecto SENA ADSO
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script>
+
+        function buscarPunto() {
+
+            document.getElementById("resultado").innerHTML =
+                "📍 Punto de reciclaje encontrado: Rafael Uribe Uribe.";
+
+            if (document.getElementById("resultadoPunto")) {
+
+                document.getElementById("resultadoPunto").innerHTML =
+                    "📍 Punto de reciclaje encontrado: Rafael Uribe Uribe.";
+
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
+```
